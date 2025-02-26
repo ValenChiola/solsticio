@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        color-scheme: light dark;
+    }
+
+    * {
+        @apply border-gray-200 dark:border-gray-800;
+        /* border: 1px solid red; */
+    }
+
+    html,
+    body {
+        @apply text-gray-600 bg-gray-50 dark:bg-gray-950 dark:text-gray-200;
+    }
+
+    .using-mouse * {
+        outline: none !important;
+    }
+}
+
+:root {
+    /* Colors */
+    --color-gradient: linear-gradient(115deg, #ffd166, #ff6f61);
+    --color-gradient-hover: linear-gradient(30deg, #ffd166, #ff6f61);
+    --color-success: rgb(16 185 129);
+    --color-success-hover: rgb(10, 206, 141);
+    --color-info: rgb(59 130 246);
+    --color-warning: rgb(234 179 8);
+    --color-warning-hover: rgb(255, 199, 32);
+    --color-grey: #4b6563;
+}
+
+button {
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 900;
+    color: white;
+    background: var(--color-info);
+}
+
+button.gradient {
+    background: var(--color-gradient);
+}
+button.gradient:hover {
+    background: var(--color-gradient-hover);
+}
+
+button.success {
+    background: var(--color-success);
+}
+button.success:hover {
+    background: var(--color-success-hover);
+}
+
+button.warning {
+    background: var(--color-warning);
+}
+button.warning:hover {
+    background: var(--color-warning-hover);
+}
+
+/* Estilos generales para inputs de texto */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.dark label {
+    @apply dark:text-gray-200;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: 2px solid #c9c9c9;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    background: white;
+    font-weight: normal;
+    color: rgb(31 41 55);
+    @apply text-gray-800;
+}
+
+/* Efecto al enfocar el input */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+svg {
+    font-size: 16px;
+    color: var(--color-grey);
+}
+.dark svg {
+    color: white;
+}
+
+/* User's DisplayName in UserAccount */
+.cl-userButtonOuterIdentifier {
+    color: #4b5563;
+    font-size: 1.15em;
+}
+.dark .cl-userButtonOuterIdentifier {
+    color: #e5e7eb;
+}
+
+/* Form Button in SignIn */
+.cl-formButtonPrimary {
+    all: unset;
+    background: var(--color-gradient);
+    border: 0;
+    box-shadow: none !important;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cl-formButtonPrimary:hover {
+    background-color: rgb(107, 3, 182);
+}
+.cl-buttonArrowIcon {
+    display: none;
+}
