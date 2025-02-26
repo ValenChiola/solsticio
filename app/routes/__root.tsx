@@ -73,13 +73,11 @@ export const Route = createRootRoute({
             userId,
         }
     },
-    errorComponent: (props) => {
-        return (
-            <RootDocument>
-                <DefaultCatchBoundary {...props} />
-            </RootDocument>
-        )
-    },
+    errorComponent: (props) => (
+        <RootDocument>
+            <DefaultCatchBoundary {...props} />
+        </RootDocument>
+    ),
     notFoundComponent: () => <NotFound />,
     component: RootComponent,
 })

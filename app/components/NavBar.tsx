@@ -1,5 +1,4 @@
-import { ComponentProps } from "react"
-import { Link as TanLink } from "@tanstack/react-router"
+import { Link } from "@tanstack/react-router"
 import { ThemeSwitcher } from "./ThemeSwitcher"
 import { UserAccount } from "./UserAccount"
 
@@ -10,21 +9,17 @@ export const NavBar = () => (
             <Link to="/">Solsticio</Link>
         </div>
         <div className="flex gap-2 items-center">
-            <Link to="/">Inicio</Link>
-            <Link to="/posts">Productos</Link>
+            <Link to="/" activeProps={{ className: "font-bold" }}>
+                Inicio
+            </Link>
+            <Link
+                to="/products"
+                activeOptions={{ exact: false }}
+                activeProps={{ className: "font-bold" }}
+            >
+                Productos
+            </Link>
         </div>
         <UserAccount />
     </nav>
-)
-
-export const Link = ({
-    activeOptions,
-    activeProps,
-    ...rest
-}: ComponentProps<typeof TanLink>) => (
-    <TanLink
-        {...rest}
-        activeOptions={{ exact: true, ...activeOptions }}
-        activeProps={{ className: "font-bold", ...activeProps }}
-    />
 )
