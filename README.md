@@ -1,72 +1,39 @@
-# Welcome to TanStack.com!
+# Solsticio - Tienda de Ropa de Lino Italiana
 
-This site is built with TanStack Router!
+Bienvenido a **Solsticio**, tu destino exclusivo para ropa de lino importada de Italia. Nos especializamos en ofrecer prendas elegantes, frescas y sofisticadas, diseñadas para quienes buscan calidad y estilo en cada temporada.
 
-- [TanStack Router Docs](https://tanstack.com/router)
+## ✨ Sobre Nosotros
 
-It's deployed automagically with Netlify!
+Solsticio nace con la misión de traer la mejor ropa de lino directamente desde Italia. Seleccionamos cuidadosamente cada prenda para garantizar que nuestros clientes disfruten de la comodidad, transpirabilidad y durabilidad que solo el lino de alta calidad puede ofrecer.
 
-- [Netlify](https://netlify.com/)
+## 🛍️ ¿Qué Encontrarás en Solsticio?
 
-## Development
+- Camisas de lino elegantes y versátiles
+- Pantalones cómodos y frescos
+- Vestidos sofisticados para cualquier ocasión
+- Blazers y conjuntos de lino para un look distinguido
+- Accesorios que complementan tu estilo
 
-From your terminal:
+## 🌍 Compra Online
 
-```sh
-pnpm install
-pnpm dev
-```
+Nuestra tienda en línea está diseñada para brindarte una experiencia de compra fluida y segura. Contamos con envíos a toda Argentina y múltiples opciones de pago.
 
-This starts your app in development mode, rebuilding assets on file changes.
+## 💳 Métodos de Pago
 
-## Editing and previewing the docs of TanStack projects locally
+Aceptamos pagos a través de diversas pasarelas de pago seguras en Argentina, para que puedas elegir la opción más conveniente para vos.
 
-The documentations for all TanStack projects except for `React Charts` are hosted on [https://tanstack.com](https://tanstack.com), powered by this TanStack Router app.
-In production, the markdown doc pages are fetched from the GitHub repos of the projects, but in development they are read from the local file system.
+## 📦 Envíos
 
-Follow these steps if you want to edit the doc pages of a project (in these steps we'll assume it's [`TanStack/form`](https://github.com/tanstack/form)) and preview them locally :
+Realizamos envíos rápidos a todo el país. También ofrecemos retiro en nuestro local en Pinamar para quienes deseen ver las prendas en persona.
 
-1. Create a new directory called `tanstack`.
+## 📲 Conéctate con Nosotros
 
-```sh
-mkdir tanstack
-```
+Seguinos en nuestras redes sociales para estar al tanto de nuestras últimas colecciones y promociones:  
+Instagram: [@solsticio](https://instagram.com/solsticio)  
+Facebook: [Solsticio Ropa](https://facebook.com/solsticio)
 
-2. Enter the directory and clone this repo and the repo of the project there.
+📧 **Contacto**: info@solsticio.com
 
-```sh
-cd tanstack
-git clone git@github.com:TanStack/tanstack.com.git
-git clone git@github.com:TanStack/form.git
-```
+---
 
-> [!NOTE]
-> Your `tanstack` directory should look like this:
->
-> ```
-> tanstack/
->    |
->    +-- form/
->    |
->    +-- tanstack.com/
-> ```
-
-> [!WARNING]
-> Make sure the name of the directory in your local file system matches the name of the project's repo. For example, `tanstack/form` must be cloned into `form` (this is the default) instead of `some-other-name`, because that way, the doc pages won't be found.
-
-3. Enter the `tanstack/tanstack.com` directory, install the dependencies and run the app in dev mode:
-
-```sh
-cd tanstack.com
-pnpm i
-# The app will run on https://localhost:3000 by default
-pnpm dev
-```
-
-4. Now you can visit http://localhost:3000/form/latest/docs/overview in the browser and see the changes you make in `tanstack/form/docs`.
-
-> [!NOTE]
-> The updated pages need to be manually reloaded in the browser.
-
-> [!WARNING]
-> You will need to update the `docs/config.json` file (in the project's repo) if you add a new doc page!
+Disfrutá de la frescura y elegancia del lino con **Solsticio**. 🌞✨
