@@ -106,7 +106,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             <body>
                 <NavBar />
                 <hr />
-                <main className="h-screen">{children}</main>
+                <main className="container-solsticio h-screen">{children}</main>
                 <TanStackRouterDevtools position="bottom-right" />
                 <Scripts />
             </body>

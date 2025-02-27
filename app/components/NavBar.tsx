@@ -3,7 +3,7 @@ import { ThemeSwitcher } from "./ThemeSwitcher"
 import { UserAccount } from "./UserAccount"
 
 export const NavBar = () => (
-    <nav className="p-2 flex items-center justify-between">
+    <nav className="p-2 flex items-center justify-between container-solsticio">
         <div className="flex gap-2 items-center">
             <ThemeSwitcher />
             <Link to="/">Solsticio</Link>
